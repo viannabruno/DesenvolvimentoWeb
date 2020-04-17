@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário</title>
+        <meta charset="utf-8"> 
+</head>
+<body>
+
+    <form method="GET" action="">
+
+        <input type="text" name="email"><br>
+        <input type="text" name="senha"><br>
+        
+        <input type="checkbox" name="curso" value="op1">React Native<br>
+        <input type="checkbox" name="curso" value="op2">React Js<br>
+
+        <input type="radio" name="gender" value="m" checked>Masc<br>
+        <input type="radio" name="gender" value="f">Fem<br>
+
+        <input type="reset" value="Limpar">
+
+        <input type="submit" value="Enviar">
+    
+    
+    </form>
+    <br><br>
+
+    <form method="GET" action="">
+    
+    <select name="estado" size="5">
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="GO" selected>Goiás</option>
+        <option value="SP">São Paulo</option>
+        <option value="PR">Paraná</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="CE">Ceará</option>
+    </select>
+
+    <input type="submit">
+    </form>
+    <br><br>
+
+    <form method="GET" action="">
+    
+        <input type="text" name="assunto"><br>
+        <textarea name="mensagem"></textarea>
+    
+        <input type="submit">
+    </form>
+    <br><br>
+
+
+    <!-- HTML5 tomar cuidado com a compatibilidade com navegadores e sistemas -->
+    <form method="POST" action="">
+
+        <input type="color" name="cor">
+        <br>
+        <input type="date" name="data"><br>
+
+        <input type="file" name="arquivo"><br><!--Metodo para arquio deve ser POST-->
+        
+        <input type="number" name="numerico" min="0" max="100"><br>
+
+        <input type="range" min="1" max="10" name="intervalo" value="1"><br>
+
+        <input type="tel" name="telefone">Telefone<br>
+
+        <input type="email" name="email">Email<br>
+
+        <input type="submit">
+    </form>
+
+
+
+
+
+</body>
+
+
+
+</html>

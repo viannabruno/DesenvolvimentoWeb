@@ -1,0 +1,73 @@
+p{ 
+    color: blue;
+}
+
+/* #paragrafos{
+    color: red;
+    width: 800px;
+    border: 1px solid black;
+    background-image: url(../fundos/fundo1.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: red;
+}*/
+
+/*.subDiv{
+    background-color: yellow;
+}*/
+
+#titulo {
+    color: #70e5ae;
+}
+
+.texto_verde{
+    color: green;
+}
+
+.container{
+    background-color: red;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+
+}
+
+/* CSS do Cartao de Visitas*/ 
+
+.cartaoVisita{
+    width: 400px;
+    height: 200px;
+    padding: 10px 20px 20px 30px;
+    margin: 10px;
+    background-image: url(../desafioCSS/backgorund.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-variant-caps: small-caps;
+}
+
+#listaCartao{
+    list-style-type: none;
+   
+}
+
+.redesSociais{
+    text-decoration: none;
+}
+
+#item1{
+    list-style-image: url("../desafioCSS/Insta.png");
+}
+
+#item2{
+    list-style-image: url("../desafioCSS/Twitter.png");
+}
+
+#item3{
+    list-style-image: url("../desafioCSS/Youtube.png");
+}
+
+.bodyCartao{
+    background-color: black;
+}
